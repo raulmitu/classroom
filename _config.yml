@@ -1,0 +1,10 @@
+# Exclude Unity WebGL build directories and files from Jekyll processing
+exclude:
+  - "Build"
+  - "TemplateData"
+  - "*.js"
+  - "*.json"
+  - "*.data"
+  - "*.mem"
+  - "*.wasm"
+  - "*.symbols.json"
